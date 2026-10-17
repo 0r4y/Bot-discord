@@ -1,0 +1,21 @@
+# Segredos — NUNCA suba o token do bot
+.env
+
+# Dados gerados pelo bot
+dados.db
+dados.db-*
+*.log
+historico_avatares/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.bak
