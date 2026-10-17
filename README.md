@@ -38,6 +38,37 @@ então é fácil ligar, desligar ou criar novas funções.
 - 🗃️ **Zero configuração de banco** — o `dados.db` é criado sozinho na primeira execução
 - 🛠️ **Configurável por servidor** — cada servidor tem seus próprios canais, cargos e mensagens
 
+## 🖼️ Galeria
+
+> Imagens geradas pelo próprio bot (com um avatar de exemplo).
+
+<div align="center">
+
+**Credencial de membro** — `/seubot credencial`
+
+<img src="docs/credencial.png" alt="Credencial de membro" width="600">
+
+**GIFs temáticos com o avatar** — `/gif`
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/gif_ritual.gif" width="160" alt="Ritual"><br><sub>🔯 Ritual</sub></td>
+    <td align="center"><img src="docs/gif_olho.gif" width="160" alt="Olho que tudo vê"><br><sub>👁️ Olho que tudo vê</sub></td>
+    <td align="center"><img src="docs/gif_selo.gif" width="160" alt="Selo de cera"><br><sub>🔴 Selo de cera</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/gif_vigilancia.gif" width="160" alt="Vigilância"><br><sub>📹 Vigilância</sub></td>
+    <td align="center"><img src="docs/gif_runas.gif" width="160" alt="Chuva de runas"><br><sub>🌧️ Chuva de runas</sub></td>
+    <td align="center"><img src="docs/gif_glitch.gif" width="160" alt="Sinal interceptado"><br><sub>📡 Sinal interceptado</sub></td>
+  </tr>
+</table>
+
+**Mensagem sendo decifrada** — `/gifsecreto`
+
+<img src="docs/gifsecreto.gif" alt="Texto em runas sendo decifrado" width="540">
+
+</div>
+
 ## ✨ Funcionalidades
 
 | Módulo | O que faz |
@@ -153,6 +184,7 @@ Dentro do Discord, `/comandos` mostra a lista completa com explicações.
 ├── imagens.py        # geração de GIFs e credenciais com Pillow
 ├── utils.py          # embeds, cores e helpers de duração
 ├── iniciar.bat       # atalho para rodar no Windows
+├── docs/             # imagens do README
 └── cogs/             # um arquivo por módulo
     ├── seubot.py  gifs.py  historico.py  moderacao.py  boasvindas.py
     └── logs.py  tickets.py  cargos.py  sorteios.py  configuracao.py  utilidades.py
